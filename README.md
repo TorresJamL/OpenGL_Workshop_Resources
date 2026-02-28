@@ -53,3 +53,15 @@ sudo apt install libglfw3-dev libgl1-mesa-dev xorg-dev
 - Build just builds the project.
 
 From Here, we can start the coding part! 
+
+---
+
+### Common Issues
+GLFW is empty post cloning
+: run `git submodule update --init --recursive` in terminal in the project root directory which should be the same name as the repo.
+
+CMake button does nothing
+: ctrl + shift + p -> search "CMake: configure" -> Press it and follow any prompts it gives. 
+
+IntelliSense shows errors but build works
+: Ignore it, VSCode intellisense sometimes lags behind CMake configuration.
