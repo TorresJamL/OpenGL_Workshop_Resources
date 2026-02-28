@@ -52,7 +52,7 @@ sudo apt install libglfw3-dev libgl1-mesa-dev xorg-dev
 - Triangle builds and lauches.
 - Build just builds the project.
 
-From Here, we can start the coding part! 
+From Here, we can start the coding part! (Remainder)
 
 ---
 
@@ -65,3 +65,6 @@ CMake button does nothing
 
 IntelliSense shows errors but build works
 : Ignore it, VSCode intellisense sometimes lags behind CMake configuration.
+
+`cmake --version` outputs that it doesn't exist but it still builds
+: VScode is capable of holding CMake internally. So if this is your case, don't worry too much about it.
