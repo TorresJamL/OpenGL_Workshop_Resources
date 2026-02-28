@@ -52,7 +52,7 @@ sudo apt install libglfw3-dev libgl1-mesa-dev xorg-dev
 - Triangle builds and lauches.
 - Build just builds the project.
 
-From Here, we can start the coding part! (Remainder)
+From Here, we can start the coding part! [Remainder]
 
 ---
 
