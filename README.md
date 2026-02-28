@@ -18,4 +18,5 @@ This whole workshop will be done in VSCode. Although it is technically not _nece
 [^3]: Now, I do believe MAC is of similar situation to Linux where Clang is there by default. But it may not be entirely complete. From what I have found online (I do not use MAC) you can do ```clang++ --version``` or ```clang --version``` in the terminal to see if it's properly installed. If it's not, do: ```xcode-select --install``` and supposedly that fixes it.
 Everything else will be handled locally in our editor!
 
+Speaking of our editor 
 
