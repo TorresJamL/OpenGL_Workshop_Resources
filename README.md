@@ -6,7 +6,15 @@ This workshop will start with getting our IDE setup and progress to a follow alo
 
 ### Setup and Prerequisites [10 - 15 minutes]
 IDE Installation: [Visual Studio Code](https://code.visualstudio.com/download)
-This whole workshop will be done in VSCode. Although it is technically not _necessary_, it is the editor I know best and can help / assist with best. It is also notably convenvient.
+CMake Installation
+- For windows, go here: [CMake](https://cmake.org/download/) and get the x86 msi installer. During installation, if there is an option to add CMake to your PATH, **DO IT**.
+- For Linux:
+```
+sudo apt update
+sudo apt install cmake
+cmake --version
+```
+This whole workshop will be done in VSCode. Although it is technically not _necessary_, I will be using it's extensions for ease of use.
 | Prerequisites | What for |
 | ----------- | ----------- |
 | MSVC Tools[^1] (Windows) | C++ Compilation and Build Tools |
@@ -19,4 +27,7 @@ This whole workshop will be done in VSCode. Although it is technically not _nece
 Everything else will be handled locally in our editor!
 
 Speaking of our editor 
+The next thing that must be done is getting our starter code. 
+1. Clone this repo: `git clone https://github.com/TorresJamL/OpenGL_Workshop_Resources.git` in your terminal. You can also use Github Desktop. As long as you can use/see the starter code. **We will only be coding in main.cpp. The other folders/files are for dependencies that allow everything to work and/or abstractions of functional OpenGL bits to be object oriented. It's okay not to understand those yet! That's why you're here.**
+2. Install VS code extensions: C/C++ (by Microsoft), C/C++ Extension Pack (by Microsoft), **CMake Tools** (by Microsoft)
 
